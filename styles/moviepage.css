@@ -1,0 +1,55 @@
+body{
+    /* background-image: linear-gradient(to left,#642a97,#734b6d); */
+    background-color: #f1f1f1;
+
+}
+root {
+    --min-width: 296px;
+    /* theme colors for background and queue hover */
+    --color-left: rgb(0, 68, 77);
+    --color-right: rgb(158, 77, 1);
+    /* icons color  */
+    --icons-color: white;
+    /* like-color */
+    --like: cyan;
+    /* different names color on the page  */
+    --name-color: white;
+  }
+ .card {
+    min-width: var(--min-width);
+    height: 74vh;
+  }
+  /* giving background colors and effects to card  */
+.card-body {
+    
+    background-color: var(--color-left);
+  }
+   #artist-image {
+    /* background-image: ; */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+  }
+   #artist-details p {
+    color: var(--name-color);
+  }
+   #artist-details h2 {
+    color: var(--name-color);
+  }
+   #artist-details h5 {
+    color: var(--name-color);
+  }
+   #artist-details a {
+    color: var(--name-color);
+  }
+   .card-body p {
+    font-size: large;
+  }
+   .card h5 {
+    top: 18%;
+    right: 3%;
+  }
+  #play-all {
+    width: 150px;
+    background: linear-gradient(to right, blue, blueviolet);
+  }

@@ -1,0 +1,78 @@
+body{
+    /* background-image: linear-gradient(to left,#642a97,#734b6d); */
+    background-color: #f1f1f1;
+
+}
+form{
+    width: 40rem;
+    display: inline-flex;
+
+}
+#movie-list{
+    padding-left: 0px;
+}
+#movie-list li{
+    list-style: none;
+}
+#movie-list li:first-child{
+    margin-top: 20px;
+}
+
+#movie-list a {
+    all: unset;
+    /* text-shadow: 5px 5px 0px green; */
+    /* color: white; */
+    font-size: x-large;
+    font-family: 'Gloria Hallelujah', cursive;
+    display: flex;
+  }
+
+  #movie-list a:hover{
+    /* text-decoration: underline; */
+    color:#00A0C6;
+    cursor:pointer;  
+
+  }
+
+  .unfav-button {
+    background: #42a4ff;
+    border: 1px solid #42a4ff;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    align-self: center;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    max-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-transform: none;
+    vertical-align: middle;
+  }
+  
+  .unfav-button:hover,
+  .unfav-button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #42a4ff;
+  }
+  
+  .unfav-button:active {
+    opacity: .5;
+  }
+
+#movies{
+    background-color: #ffffff;
+    /* padding: 20px; */
+    padding-right: 20px;
+    height: 13rem;
+    
+}
+#movie-poster{
+    width: 168px;
+}
