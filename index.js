@@ -81,9 +81,8 @@ class Imdb {
         <li >
           <div id="movies" class=" d-flex justify-content-between  mx-4 my-1">
           <div class="w-100 d-flex"><div id="movie-poster" class="me-2"><img src="${movie.Poster}" alt="movie-poster" class="h-100 w-100"></div>
-          <div class="d-flex align-items-center"><a href="./MoviePage.html" id="${movie.imdbID}" class="me-1 display-6 " onclick="obj.handleMovieClick(this.id)" target="_blank">${movie.Title}</a></div>
+          <div class="d-flex align-items-center"><a href="./MoviePage.html" id="${movie.imdbID}" class="me-1 display-6 " " target="_blank">${movie.Title}</a></div>
           </div>
-             <button id="${movie.imdbID}"  class="fav-button" onclick="obj.handleFavouriteClick(this.id)" >Favourite</button>
           </div>
         </li>
         `;
